@@ -1,0 +1,42 @@
+.left-panel {
+    width: 60%;
+}
+
+.scoreboard {
+    display: grid;
+    grid-template-columns: 20% repeat(13, 1fr);
+    grid-template-rows: repeat(3, auto);
+    text-align: center;
+}
+
+.scoreboard .scoreboard-header {
+    background-color: rgba(0,0,0,.3);
+}
+
+.scoreboard .scoreboard-header p {
+    margin: 0;
+}
+
+.scoreboard .visitor-inning p, .scoreboard .home-inning p {
+    margin: 0;
+}
+
+.lineup {
+    display: grid;
+    grid-template-columns: 20% repeat(7, 1fr);
+    grid-template-rows: repeat(9, 80px);
+    text-align: center;
+}
+
+.lineup .batter-result {
+
+}
+
+.lineup .batter-result p {
+    padding: 18px;
+    font-size: 30px;
+}
+
+.lineup .batter-result {
+
+}
